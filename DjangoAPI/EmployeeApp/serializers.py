@@ -13,6 +13,5 @@ class EmployeeSerializer(serializers.ModelSerializer):
         fields = ('EmployeeId',
                   'EmployeeName',
                   'Department',
-                  'DateOfJoining',
-                  'PhotoFileName')
+                  'DateOfJoining')
                   

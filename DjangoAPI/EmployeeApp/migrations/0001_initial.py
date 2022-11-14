@@ -24,8 +24,7 @@ class Migration(migrations.Migration):
                 ('EmployeeId', models.AutoField(primary_key=True, serialize=False)),
                 ('EmployeeName', models.CharField(max_length=100)),
                 ('Department', models.CharField(max_length=100)),
-                ('DateOfJoining', models.DateField()),
-                ('PhotoFileName', models.CharField(max_length=100)),
+                ('DateOfJoining', models.DateField())
             ],
         ),
     ]
